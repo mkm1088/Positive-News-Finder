@@ -9,7 +9,7 @@ import re
 
 def NewsFromCNBC():
     #CNBC news api
-    main_url = "https://newsapi.org/v2/everything?sources=cnbc&apiKey=cb28b795dd1e469ebbc02ea19535898a"
+    main_url = "https://newsapi.org/v2/everything?sources=cnbc&apiKey=*******************"
 
     # fetching data in json format
     open_cnbc_page = requests.get(main_url).json()

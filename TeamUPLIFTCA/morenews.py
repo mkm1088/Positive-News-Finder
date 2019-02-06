@@ -5,7 +5,7 @@ from selenium import webdriver
 from bs4 import BeautifulSoup as BS
 import re
 def newsFromCNBC():
-    main_url = "https://newsapi.org/v2/top-headlines?sources=the-hindu&apiKey=cb28b795dd1e469ebbc02ea19535898a"
+    main_url = "https://newsapi.org/v2/top-headlines?sources=the-hindu&apiKey=***************"
     open_cnbc_page = requests.get(main_url).json()
     print(len(open_cnbc_page),"is the length of the json return")
     article = open_cnbc_page["articles"]
